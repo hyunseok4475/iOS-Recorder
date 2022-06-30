@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66AB79DF2786C68700938E5A /* Audio-Recorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Audio-Recorder-Info.plist"; sourceTree = SOURCE_ROOT; };
 		66D312CE2786A1BA008D8E72 /* Audio Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D312D12786A1BA008D8E72 /* Audio_RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_RecorderApp.swift; sourceTree = "<group>"; };
 		66D312D32786A1BA008D8E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		66D312D02786A1BA008D8E72 /* Audio Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				66AB79DF2786C68700938E5A /* Audio-Recorder-Info.plist */,
 				66D312D12786A1BA008D8E72 /* Audio_RecorderApp.swift */,
 				66D312D32786A1BA008D8E72 /* ContentView.swift */,
 				66D312D52786A1BB008D8E72 /* Assets.xcassets */,
@@ -422,6 +424,9 @@
 				DEVELOPMENT_TEAM = 8944MW868U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Audio-Recorder-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +456,9 @@
 				DEVELOPMENT_TEAM = 8944MW868U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Audio-Recorder-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
